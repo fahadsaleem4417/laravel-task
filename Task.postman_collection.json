@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "4b7947a3-720b-49d0-8ecf-dec7faa4bcce",
+		"name": "Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29708525",
+		"_collection_link": "https://grey-capsule-487930.postman.co/workspace/99a07bf7-ee9d-4dfa-8d91-a944d7e934d2/collection/29708525-4b7947a3-720b-49d0-8ecf-dec7faa4bcce?action=share&source=collection_link&creator=29708525"
+	},
+	"item": [
+		{
+			"name": "Task-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/stock-performance",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"stock-performance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/stock-change-period?start_date=2023-01-01&end_date=2025-01-01",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"stock-change-period"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2023-01-01"
+						},
+						{
+							"key": "end_date",
+							"value": "2025-01-01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

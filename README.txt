@@ -14,3 +14,7 @@ Run php artisan serve
 Hit the url: http://127.0.0.1:8000
 Run php artisan queue:work
 Now choose the dummy file and upload it.
+After uploading file you can check Task 2 and Task 3 on postman by downloading and importing "Task.postman_collection.json"
+
+
+NOTE: Feel free to contact me in case of any inquiries "fahadsaleem4417@gmail.com"
